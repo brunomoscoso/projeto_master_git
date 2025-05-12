@@ -1,0 +1,142 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 40px 20px;
+  }
+  
+  /* Área principal */
+  .admin-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Títulos */
+  .admin-area h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #0077cc;
+    margin-bottom: 10px;
+  }
+  
+  /* Topo com botão de sair/voltar */
+  .topo-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .btn-sair,
+  .btn-voltar {
+    background-color: #cc0000;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-voltar {
+    background-color: #999;
+  }
+  
+  .btn-sair:hover {
+    background-color: #a00000;
+  }
+  .btn-voltar:hover {
+    background-color: #777;
+  }
+  
+  /* Caixas */
+  .box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  }
+  
+  /* Itens de cliente/consulta */
+  .cliente-item,
+  .consulta-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+  }
+  
+  p {
+    margin-bottom: 6px;
+  }
+  
+  /* Botões de ação */
+  .btn-editar,
+  .btn-ver,
+  .btn-excluir {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 8px 14px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-excluir {
+    background-color: #cc0000;
+  }
+  
+  .btn-editar:hover,
+  .btn-ver:hover {
+    background-color: #005fa3;
+  }
+  
+  .btn-excluir:hover {
+    background-color: #a00000;
+  }
+  
+  /* Formulários */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  .cancelada {
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .msg-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-left: 4px solid #28a745;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
